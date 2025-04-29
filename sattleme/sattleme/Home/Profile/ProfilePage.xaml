@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+    x:Class="sattleme.Home.Profile.ProfilePage"  
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#F9F9F9">
+
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Padding="25" Spacing="20" VerticalOptions="FillAndExpand" Grid.Row="0">
+
+            <Frame HasShadow="True" Padding="5" HorizontalOptions="Center"
+                   BackgroundColor="White" CornerRadius="70"
+                   HeightRequest="140" WidthRequest="140">
+                <Image x:Name="ProfileImage" Source="default_profile.png" 
+                       HeightRequest="130" WidthRequest="130" Aspect="AspectFill"
+                       VerticalOptions="Center" HorizontalOptions="Center"/>
+            </Frame>
+
+            <Button Text="Change Profile Picture"
+                    Clicked="OnUploadPhotoClicked"
+                    BackgroundColor="#005BA1"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="45"
+                    FontAttributes="Bold"
+                    />
+
+            <Label x:Name="NameLabel" Text="Full Name"
+                   FontSize="22" FontAttributes="Bold" TextColor="#333"
+                   HorizontalOptions="Center"/>
+
+            <Label x:Name="EmailLabel" Text="Email"
+                   FontSize="16" TextColor="#777"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Logout"
+                    Clicked="OnLogoutClicked"
+                    BackgroundColor="#d9534f"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="45"
+                    FontAttributes="Bold"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#005BA1" Padding="0" HeightRequest="60" VerticalOptions="End">
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="2">
+                <Image Source="home.png" WidthRequest="24" HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnHomeTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="2">
+                <Image Source="chat.png" WidthRequest="24" HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnChatTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="2">
+                <Image Source="post.png" WidthRequest="24" HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAddTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="2">
+                <Image Source="notification.png" WidthRequest="24" HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFavoriteTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Spacing="2">
+                <Image Source="profile_active.png" WidthRequest="24" HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfileTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

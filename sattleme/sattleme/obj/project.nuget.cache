@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "VdvocP828bcaexzzA66WHwxNJ1kjiQhUjH3xUCsYMuI/7gLZDKFiCquEjfTEpxkgkndCyndys9f4sbmJcrfcFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\sattleme.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\143ff\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\143ff\\.nuget\\packages\\xamarin.mediagallery\\2.2.1\\xamarin.mediagallery.2.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

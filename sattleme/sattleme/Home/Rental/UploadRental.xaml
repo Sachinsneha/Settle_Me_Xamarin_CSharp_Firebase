@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="sattleme.Home.Rental.UploadRental"
+     NavigationPage.HasNavigationBar="False"
+
+    BackgroundColor="#F5F5F5">
+
+    <ContentPage.Resources>
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="#333"/>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#2196F3"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="CornerRadius" Value="25"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="Margin" Value="0,10,0,10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="20">
+                <Label Text="Upload Rental" 
+FontSize="36" 
+FontAttributes="Bold" 
+TextColor="Black"
+HorizontalOptions="Center"
+Margin="0,10,0,20"/>
+                <Label Text="Upload Images" Style="{StaticResource LabelStyle}" 
+                       FontSize="20" FontAttributes="Bold" 
+                       HorizontalOptions="Center" />
+
+                <CollectionView x:Name="ImagesCollectionView" HeightRequest="120" ItemsLayout="HorizontalList">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="0" Margin="5" CornerRadius="10" HasShadow="True">
+                                <Image Source="{Binding}" WidthRequest="100" HeightRequest="100" 
+                                       Aspect="AspectFill" />
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Button Text="Select Images" Clicked="OnSelectImagesClicked" Style="{StaticResource ButtonStyle}" />
+
+                <Frame CornerRadius="10" HasShadow="False" BackgroundColor="White" Padding="10">
+                    <Entry x:Name="NameEntry" Placeholder="Name" TextColor="#333" 
+                           HeightRequest="50" Margin="0,5,0,5"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="False" BackgroundColor="White" Padding="10">
+                    <Entry x:Name="AddressEntry" Placeholder="Address" TextColor="#333" 
+                           HeightRequest="50" Margin="0,5,0,5"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="False" BackgroundColor="White" Padding="10">
+                    <Entry x:Name="PriceEntry" Placeholder="Price" TextColor="#333" 
+                           HeightRequest="50" Margin="0,5,0,5"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="False" BackgroundColor="White" Padding="10">
+                    <Editor x:Name="DescriptionEditor" Placeholder="Description" TextColor="#333" 
+                            HeightRequest="100" Margin="0,5,0,5"/>
+                </Frame>
+
+                <Button Text="Post" Clicked="OnPostRentalClicked" Style="{StaticResource ButtonStyle}" />
+
+                <Label Text="My Listings" Style="{StaticResource LabelStyle}" 
+                       FontSize="22" FontAttributes="Bold" 
+                       HorizontalOptions="Center" />
+
+                <CollectionView x:Name="ListingsCollectionView" HeightRequest="300">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="15" Margin="10" Padding="10" 
+                                   HasShadow="True" BackgroundColor="White">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="40" />
+                                        <ColumnDefinition Width="40" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding ImageUrl}" Grid.Column="0" 
+                                           WidthRequest="70" HeightRequest="70" Aspect="AspectFill" 
+                                           HorizontalOptions="Center" VerticalOptions="Center" />
+
+                                    <StackLayout Grid.Column="1" VerticalOptions="Center" Spacing="4">
+                                        <Label Text="{Binding Title}" FontSize="16" FontAttributes="Bold" TextColor="#333"/>
+                                        <Label Text="{Binding Address}" FontSize="14" TextColor="#666"/>
+                                        <Label Text="{Binding Price}" FontSize="14" TextColor="#2196F3"/>
+                                    </StackLayout>
+
+                                    <ImageButton Grid.Column="2" Source="edit.png" 
+                                                 WidthRequest="24" HeightRequest="24" 
+                                                 BackgroundColor="Transparent" 
+                                                 Command="{Binding EditCommand}" 
+                                                 CommandParameter="{Binding Id}"/>
+                                    <ImageButton Grid.Column="3" Source="delete.png" 
+                                                 WidthRequest="24" HeightRequest="24" 
+                                                 BackgroundColor="Transparent" 
+                                                 Command="{Binding DeleteCommand}" 
+                                                 CommandParameter="{Binding Id}"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

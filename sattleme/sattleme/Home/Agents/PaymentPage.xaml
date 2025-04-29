@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="sattleme.Home.Agents.PaymentPage"
+    NavigationPage.HasNavigationBar="False"
+
+    BackgroundColor="#EFEFEF">
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+            <Label Text="Payment Details" 
+                   FontSize="28" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   TextColor="#333" />
+
+            <!-- Input Container -->
+            <Frame BackgroundColor="White" 
+                   CornerRadius="10" 
+                   Padding="15" 
+                   HasShadow="True">
+                <StackLayout Spacing="15">
+                    <!-- Card Number -->
+                    <Entry x:Name="CardNumberEntry" 
+                           Placeholder="Card Number" 
+                           Keyboard="Numeric" 
+                           PlaceholderColor="#999" 
+                           TextColor="#333" />
+
+                    <!-- Expiry and CVV side-by-side -->
+                    <Grid ColumnSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Entry x:Name="ExpiryEntry" 
+                               Placeholder="Expiry (MM/YY)" 
+                               Grid.Column="0" 
+                               PlaceholderColor="#999" 
+                               TextColor="#333" />
+                        <Entry x:Name="CVVEntry" 
+                               Placeholder="CVV" 
+                               Keyboard="Numeric" 
+                               Grid.Column="1" 
+                               PlaceholderColor="#999" 
+                               TextColor="#333" />
+                    </Grid>
+
+                    <!-- Card Holder Name -->
+                    <Entry x:Name="CardHolderNameEntry" 
+                           Placeholder="Card Holder Name" 
+                           PlaceholderColor="#999" 
+                           TextColor="#333" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Pay Button -->
+            <Button Text="Pay" 
+                    Clicked="OnPayClicked" 
+                    BackgroundColor="#4CAF50" 
+                    TextColor="White" 
+                    CornerRadius="25" 
+                    Padding="15" 
+                    FontSize="18" 
+                    HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

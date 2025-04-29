@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="sattleme.Home.Ride.RequestRide"
+    Title="Request Ride">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="16" Spacing="16">
+                <!-- Profile Card -->
+                <Frame CornerRadius="12" HasShadow="True" BackgroundColor="#FFEBCD" Padding="16">
+                    <StackLayout Orientation="Horizontal" Spacing="16">
+                        <!-- Circular Profile Image -->
+                        <Frame WidthRequest="80" HeightRequest="80" CornerRadius="40" Padding="0" IsClippedToBounds="True">
+                            <Image x:Name="ProfileImage" Aspect="AspectFill"/>
+                        </Frame>
+                        <!-- User Name and Email -->
+                        <StackLayout VerticalOptions="Center">
+                            <Label x:Name="UserNameLabel" FontSize="20" FontAttributes="Bold"/>
+                            <Label x:Name="UserEmailLabel" FontSize="16" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Ride Request Form -->
+                <Entry x:Name="PickupEntry" Placeholder="Enter pickup location" FontSize="16" />
+                <Entry x:Name="DropEntry" Placeholder="Enter drop-off location" FontSize="16" />
+
+                <!-- Date Picker Row -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Entry x:Name="DateEntry" Placeholder="Select date" IsReadOnly="True" FontSize="16" />
+                    <Button Text="Pick Date" Grid.Column="1" Clicked="PickDate_Clicked" 
+                            BackgroundColor="#FAAE2B" TextColor="White" CornerRadius="12" />
+                </Grid>
+
+                <!-- Time Picker Row -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Entry x:Name="TimeEntry" Placeholder="Select time" IsReadOnly="True" FontSize="16" />
+                    <Button Text="Pick Time" Grid.Column="1" Clicked="PickTime_Clicked" 
+                            BackgroundColor="#FAAE2B" TextColor="White" CornerRadius="12" />
+                </Grid>
+
+                <Label x:Name="DayMonthLabel" FontSize="16" TextColor="DarkGray" />
+
+                <Button x:Name="SubmitRequestButton" Text="Submit Request" Clicked="SubmitRequest_Clicked" 
+                        BackgroundColor="#FAAE2B" TextColor="White" FontAttributes="Bold" 
+                        CornerRadius="12" FontSize="18" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

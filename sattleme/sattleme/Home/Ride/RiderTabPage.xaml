@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:sattleme.Home.Ride"
+    x:Class="sattleme.Home.Ride.RiderTabPage"
+    Title="Riders">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:DayColorConverter x:Key="DayColorConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout Orientation="Horizontal" Padding="12" Spacing="12" Grid.Row="0">
+                <Picker x:Name="PickerAvailability" Title="Availability" HorizontalOptions="FillAndExpand" />
+                <Picker x:Name="PickerColor" Title="Vehicle Color" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+
+            <RefreshView x:Name="RidersRefreshView" Refreshing="OnRefresh" Grid.Row="1">
+                <ListView x:Name="RidersListView" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Margin="12,6" Padding="12" CornerRadius="12" HasShadow="True">
+                                    <Grid ColumnSpacing="10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Image Source="{Binding PhotoUrl}" 
+                           WidthRequest="50" HeightRequest="50"
+                           Aspect="AspectFill"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center">
+                                            <Image.Triggers>
+                                                <DataTrigger TargetType="Image" Binding="{Binding PhotoUrl}" Value="">
+                                                    <Setter Property="Source" Value="default_profile.png" />
+                                                </DataTrigger>
+                                            </Image.Triggers>
+                                        </Image>
+                                        <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                            <Label Text="{Binding FullName}" FontAttributes="Bold" FontSize="14"/>
+                                            <StackLayout Orientation="Horizontal" Spacing="4">
+                                                <Frame Padding="2" BackgroundColor="LightCoral" CornerRadius="4">
+                                                    <Label Text="{Binding VehicleType}" FontSize="10"/>
+                                                </Frame>
+                                                <Frame Padding="2" BackgroundColor="LightCoral" CornerRadius="4">
+                                                    <Label Text="{Binding Color}" FontSize="10"/>
+                                                </Frame>
+                                            </StackLayout>
+                                            <Label Text="Availability:" FontAttributes="Bold" FontSize="10" Margin="0,4,0,2"/>
+                                            <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Start">
+                                                <Frame Padding="4" Margin="2" CornerRadius="4" HasShadow="False"
+                               BackgroundColor="{Binding Availability, Converter={StaticResource DayColorConverter}, ConverterParameter=Sun}">
+                                                    <Label Text="Sun" FontSize="10" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                </Frame>
+                                                <Frame Padding="4" Margin="2" CornerRadius="4" HasShadow="False"
+                               BackgroundColor="{Binding Availability, Converter={StaticResource DayColorConverter}, ConverterParameter=Mon}">
+                                                    <Label Text="Mon" FontSize="10" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                </Frame>
+                                                <Frame Padding="4" Margin="2" CornerRadius="4" HasShadow="False"
+                               BackgroundColor="{Binding Availability, Converter={StaticResource DayColorConverter}, ConverterParameter=Tue}">
+                                                    <Label Text="Tue" FontSize="10" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                </Frame>
+                                                <Frame Padding="4" Margin="2" CornerRadius="4" HasShadow="False"
+                               BackgroundColor="{Binding Availability, Converter={StaticResource DayColorConverter}, ConverterParameter=Wed}">
+                                                    <Label Text="Wed" FontSize="10" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                </Frame>
+                                                <Frame Padding="4" Margin="2" CornerRadius="4" HasShadow="False"
+                               BackgroundColor="{Binding Availability, Converter={StaticResource DayColorConverter}, ConverterParameter=Thu}">
+                                                    <Label Text="Thu" FontSize="10" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                </Frame>
+                                                <Frame Padding="4" Margin="2" CornerRadius="4" HasShadow="False"
+                               BackgroundColor="{Binding Availability, Converter={StaticResource DayColorConverter}, ConverterParameter=Fri}">
+                                                    <Label Text="Fri" FontSize="10" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                </Frame>
+                                                <Frame Padding="4" Margin="2" CornerRadius="4" HasShadow="False"
+                               BackgroundColor="{Binding Availability, Converter={StaticResource DayColorConverter}, ConverterParameter=Sat}">
+                                                    <Label Text="Sat" FontSize="10" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                </Frame>
+                                            </FlexLayout>
+                                        </StackLayout>
+                                        <Button Grid.Column="2" 
+                            Text="Message" 
+                            FontSize="10" 
+                            BackgroundColor="#FAAE2B" 
+                            TextColor="White"
+                            Clicked="OnMessageButtonClicked"
+                            CommandParameter="{Binding}"
+                            WidthRequest="100" 
+                            HeightRequest="50"
+                            CornerRadius="15"
+                            VerticalOptions="Center"/>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
+
+            <Label x:Name="NoRidersLabel" Text="No approved riders match the filters." 
+             HorizontalOptions="Center" IsVisible="False" FontSize="12" Grid.Row="2"/>
+
+            <Button Grid.Row="3" Text="Become a Rider"
+              Clicked="OnBecomeRiderClicked"
+              BackgroundColor="#FAAE2B"
+              TextColor="White"
+              CornerRadius="8"
+              Margin="16" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

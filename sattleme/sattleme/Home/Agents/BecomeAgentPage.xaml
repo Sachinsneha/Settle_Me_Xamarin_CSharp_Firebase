@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="sattleme.Home.Agents.BecomeAgentPage"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#F5F5F5">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <Label Text="Become An Agent" 
+    FontSize="Large" 
+    FontAttributes="Bold" 
+    TextColor="Black"
+    HorizontalOptions="Center"/>
+            <!-- Circular Profile Photo -->
+            <Frame WidthRequest="120" HeightRequest="120" 
+             CornerRadius="60" Padding="0" 
+             HasShadow="True" HorizontalOptions="Center" 
+             BorderColor="#ccc">
+                <Image x:Name="ProfileImage" 
+               WidthRequest="120" HeightRequest="120" 
+               Aspect="AspectFill"/>
+            </Frame>
+
+            <!-- Read-only Full Name -->
+            <Frame Padding="5" CornerRadius="8" BorderColor="#ccc" HasShadow="False">
+                <Entry x:Name="NameEntry"
+               Placeholder="Full Name"
+               IsEnabled="False"
+               TextColor="Black"
+               BackgroundColor="Transparent"/>
+            </Frame>
+
+            <!-- Read-only Email -->
+            <Frame Padding="5" CornerRadius="8" BorderColor="#ccc" HasShadow="False">
+                <Entry x:Name="EmailEntry"
+               Placeholder="Email"
+               IsEnabled="False"
+               TextColor="Black"
+               BackgroundColor="Transparent"/>
+            </Frame>
+
+            <!-- Speciality Field -->
+            <Frame Padding="5" CornerRadius="8" BorderColor="#ccc" HasShadow="False">
+                <Entry x:Name="SpecialityEntry"
+               Placeholder="Speciality"
+               TextColor="Black"
+               BackgroundColor="Transparent"/>
+            </Frame>
+
+            <!-- Rate Field with "$" sign in placeholder -->
+            <Frame Padding="5" CornerRadius="8" BorderColor="#ccc" HasShadow="False">
+                <Entry x:Name="RateEntry"
+               Placeholder="Agent Rate ($)"
+               Keyboard="Numeric"
+               TextColor="Black"
+               BackgroundColor="Transparent"/>
+            </Frame>
+
+            <!-- Contact Information Field -->
+            <Frame Padding="5" CornerRadius="8" BorderColor="#ccc" HasShadow="False">
+                <Entry x:Name="ContactEntry"
+               Placeholder="Contact Information"
+               TextColor="Black"
+               BackgroundColor="Transparent"/>
+            </Frame>
+
+            <!-- Short Bio Field -->
+            <Frame Padding="5" CornerRadius="8" BorderColor="#ccc" HasShadow="False">
+                <Editor x:Name="BioEditor"
+                Placeholder="Short Bio"
+                HeightRequest="100"
+                TextColor="Black"
+                BackgroundColor="Transparent"/>
+            </Frame>
+
+            <!-- Stylish Submit Button -->
+            <Button Text="Submit Application"
+              Clicked="OnSubmitAgentApplicationClicked"
+              BackgroundColor="#007AFF"
+              TextColor="White"
+              CornerRadius="25"
+              FontSize="Medium"
+              HeightRequest="50"
+              HorizontalOptions="FillAndExpand"
+              Margin="20,10"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

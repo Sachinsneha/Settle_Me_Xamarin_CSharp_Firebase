@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="sattleme.Home.Rental.ChatPage"
+    x:Name="PageRoot"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#F5F5F5">
+
+    <StackLayout VerticalOptions="FillAndExpand" Spacing="10">
+
+        <!-- Header with a blue background -->
+        <Grid HeightRequest="80" BackgroundColor="#005BA1" Padding="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Circular Frame for Partner's Photo -->
+            <Frame Padding="0"
+                   CornerRadius="30"
+                   WidthRequest="60"
+                   HeightRequest="60"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
+                   HasShadow="False"
+                   IsClippedToBounds="True">
+                <Image Source="{Binding PartnerPhoto}"
+                       WidthRequest="60"
+                       HeightRequest="60"
+                       Aspect="AspectFill" />
+            </Frame>
+
+            <!-- Partner's Name -->
+            <Label Text="{Binding PartnerName}"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   Grid.Column="1"
+                   Margin="15,0,0,0"
+                   TextColor="White" />
+        </Grid>
+
+        <!-- Messages Collection -->
+        <CollectionView x:Name="MessagesCollectionView"
+                        VerticalOptions="FillAndExpand"
+                        ItemsSource="{Binding Messages}"
+                        Margin="10,0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Avatar for received messages -->
+                        <Image x:Name="AvatarImage" 
+                               Source="{Binding BindingContext.PartnerPhoto, Source={x:Reference PageRoot}}"
+                               WidthRequest="40"
+                               HeightRequest="40"
+                               Aspect="AspectFill"
+                               VerticalOptions="End">
+                            <Image.Triggers>
+                                <!-- Show avatar only for received messages -->
+                                <DataTrigger TargetType="Image" Binding="{Binding IsSent}" Value="False">
+                                    <Setter Property="IsVisible" Value="True" />
+                                </DataTrigger>
+                                <DataTrigger TargetType="Image" Binding="{Binding IsSent}" Value="True">
+                                    <Setter Property="IsVisible" Value="False" />
+                                </DataTrigger>
+                            </Image.Triggers>
+                        </Image>
+
+                        <Frame x:Name="MessageBubble"
+                               Grid.Column="1"
+                               Padding="10"
+                               CornerRadius="12"
+                               HasShadow="False"
+                               BackgroundColor="{Binding BackgroundColor}">
+                            <Frame.Triggers>
+                                <DataTrigger TargetType="Frame" Binding="{Binding IsSent}" Value="True">
+                                    <Setter Property="HorizontalOptions" Value="End" />
+                                </DataTrigger>
+                                <DataTrigger TargetType="Frame" Binding="{Binding IsSent}" Value="False">
+                                    <Setter Property="HorizontalOptions" Value="Start" />
+                                </DataTrigger>
+                            </Frame.Triggers>
+                            <Label Text="{Binding MessageText}"
+                                   TextColor="#333"
+                                   FontSize="18" />
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Grid Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Frame Grid.Column="0"
+           CornerRadius="20"     
+                BackgroundColor="White"
+           HasShadow="False"
+           Padding="12,5"
+                BorderColor="#CCCCCC"
+           VerticalOptions="Center"
+           HorizontalOptions="FillAndExpand"
+           HeightRequest="55">
+
+                <Entry x:Name="MessageEntry"
+                       Placeholder="Type a message..."
+                       TextColor="#333"
+                       PlaceholderColor="#999"
+                       BackgroundColor="White"
+                       FontSize="18"
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand" />
+            </Frame>
+
+            <!-- Send Button -->
+            <Button Text="SEND"
+                    Grid.Column="1"
+                    Clicked="OnSendClicked"
+                    BackgroundColor="#0A84FF"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    VerticalOptions="Center"
+                    Margin="10,0,0,0"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>

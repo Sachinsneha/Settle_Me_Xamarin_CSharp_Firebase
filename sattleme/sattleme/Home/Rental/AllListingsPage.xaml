@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="sattleme.Home.Rental.AllListingsPage"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#F5F5F5">
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <StackLayout Padding="10" Spacing="10">
+                <Label Text="Rental Listings"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+
+                <CollectionView x:Name="AllListingsCollectionView"
+                                SelectionMode="Single"
+                                SelectionChanged="OnListingSelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="10"
+                                   Padding="0"
+                                   Margin="10"
+                                   HasShadow="True"
+                                   BackgroundColor="White">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="200" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0">
+                                        <Image Source="{Binding ImageUrl}"
+                                               Aspect="AspectFill" />
+                                        <ImageButton Source="heart_outline.png"
+                                                     HorizontalOptions="End"
+                                                     VerticalOptions="Start"
+                                                     Margin="10"
+                                                     WidthRequest="32"
+                                                     HeightRequest="32"
+                                                     BackgroundColor="Transparent" />
+                                    </Grid>
+                                    <Label Grid.Row="1"
+                                           Text="{Binding Title}"
+                                           FontSize="16"
+                                           FontAttributes="Bold"
+                                           TextColor="#333"
+                                           Margin="10,5,10,0" />
+                                    <Label Grid.Row="2"
+                                           Text="{Binding Address}"
+                                           FontSize="14"
+                                           TextColor="#666"
+                                           Margin="10,0,10,0" />
+                                    <Label Grid.Row="3"
+                                           Text="{Binding Price}"
+                                           FontSize="16"
+                                           TextColor="Green"
+                                           Margin="10,0,10,10" />
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+
+        <StackLayout Grid.Row="1" 
+                     Orientation="Horizontal" 
+                     HorizontalOptions="FillAndExpand" 
+                     BackgroundColor="#005BA1" 
+                     Padding="0" 
+                     HeightRequest="60" 
+                     VerticalOptions="End">
+            <StackLayout HorizontalOptions="CenterAndExpand" 
+                         VerticalOptions="Center" 
+                         Spacing="2">
+                <Image Source="home.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnHomeTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" 
+                         VerticalOptions="Center" 
+                         Spacing="2">
+                <Image Source="chat.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnChatTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" 
+                         VerticalOptions="Center" 
+                         Spacing="2">
+                <Image Source="post.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAddTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" 
+                         VerticalOptions="Center" 
+                         Spacing="2">
+                <Image Source="notification.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFavoriteTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" 
+                         VerticalOptions="Center" 
+                         Spacing="2">
+                <Image Source="profile.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfileTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

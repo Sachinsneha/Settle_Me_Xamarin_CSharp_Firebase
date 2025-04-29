@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="sattleme.Home.Ride.BecomeRiderPage"
+             Title="Become a Rider">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="16" Spacing="16">
+              
+                <Entry x:Name="NameEntry" Placeholder="Full Name" IsReadOnly="True" />
+                <Entry x:Name="EmailEntry" Placeholder="Email" IsReadOnly="True" />
+
+             
+                <Entry x:Name="ContactEntry" Placeholder="Contact" />
+                <Entry x:Name="NumberPlateEntry" Placeholder="Number Plate" />
+                <Entry x:Name="VehicleTypeEntry" Placeholder="Vehicle Type" />
+                <Entry x:Name="ColorEntry" Placeholder="Vehicle Color" />
+
+            
+                <Label Text="Availability" FontAttributes="Bold" />
+                <FlexLayout x:Name="DaysFlexLayout" Wrap="Wrap" JustifyContent="Start" AlignItems="Center" />
+
+                <StackLayout Orientation="Horizontal" Spacing="16">
+                    <Frame x:Name="VehicleImageFrame" CornerRadius="30" HeightRequest="60" WidthRequest="60" Padding="0">
+
+                        <Image x:Name="VehicleImage" Aspect="AspectFill" Source="default_vehicle.png" />
+                    </Frame>
+                    <Button x:Name="UploadPhotoButton" Text="Upload Vehicle Photo" Clicked="OnUploadPhotoClicked" />
+                </StackLayout>
+
+                <Button x:Name="SubmitButton" Text="Submit Application" Clicked="OnSubmitClicked" />
+                <Button x:Name="DeleteButton" Text="Delete Application" Clicked="OnDeleteClicked" IsVisible="False" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

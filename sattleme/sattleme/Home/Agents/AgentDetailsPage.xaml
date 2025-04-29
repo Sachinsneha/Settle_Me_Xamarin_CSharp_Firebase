@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="sattleme.Home.Agents.AgentDetailsPage"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="#F5F5F5">
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Agent Details"
+           FontSize="36"
+           FontAttributes="Bold"
+           TextColor="Black"
+           HorizontalOptions="Center"
+           Margin="0,20,0,10"/>
+
+        <Frame WidthRequest="150"
+           HeightRequest="150"
+           CornerRadius="75"
+           Padding="0"
+           HorizontalOptions="Center"
+           BorderColor="#007AFF"
+           HasShadow="True">
+            <Image x:Name="AgentImage"
+             WidthRequest="150"
+             HeightRequest="150"
+             Aspect="AspectFill"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"/>
+        </Frame>
+
+        <Label x:Name="AgentName"
+           FontSize="24"
+           FontAttributes="Bold"
+           TextColor="Black"
+           HorizontalOptions="Center"/>
+
+        <Label x:Name="AgentSpeciality"
+           FontSize="18"
+           TextColor="Black"
+           HorizontalOptions="Center"/>
+
+        <Frame Padding="15"
+           CornerRadius="10"
+           BackgroundColor="White"
+           BorderColor="#CCC"
+           HasShadow="True">
+            <Label x:Name="AgentBio"
+             FontSize="16"
+             TextColor="Black"
+             LineBreakMode="WordWrap"/>
+        </Frame>
+
+        <Button x:Name="PayButton"
+            Text="Pay $150 to Chat"
+            BackgroundColor="#007AFF"
+            TextColor="White"
+            FontSize="18"
+            CornerRadius="30"
+            HeightRequest="55"
+            WidthRequest="250"
+            HorizontalOptions="Center"
+            Clicked="OnPayButtonClicked"/>
+    </StackLayout>
+</ContentPage>

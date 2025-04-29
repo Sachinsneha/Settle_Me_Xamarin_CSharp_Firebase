@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:sattleme.Home.ToDo"
+    x:Class="sattleme.Home.ToDo.ToDoScreenPage"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="White">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:BoolToColorConverter x:Key="BoolToColorConverter" TrueColor="LightGreen" FalseColor="LightGray"/>
+            <local:BoolToTextColorConverter x:Key="BoolToTextColorConverter" TrueColor="Black" FalseColor="Gray"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <ScrollView>
+            <StackLayout Padding="16" Spacing="16">
+                <Label Text="Today" 
+                       FontSize="32" 
+                       FontAttributes="Bold" 
+                       TextColor="#000"/>
+                <CollectionView x:Name="DateSelectorCollectionView"
+                                ItemsSource="{Binding DateItems}"
+                                ItemsLayout="HorizontalList"
+                                SelectionMode="Single"
+                                HorizontalScrollBarVisibility="Never"
+                                VerticalOptions="Start"
+                                HeightRequest="80">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="8"
+                                   CornerRadius="12"
+                                   HeightRequest="50"
+                                   WidthRequest="60"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   BackgroundColor="{Binding IsSelected, Converter={StaticResource BoolToColorConverter}}"
+                                   HasShadow="False">
+                                <StackLayout Spacing="0" 
+                                             HorizontalOptions="Center" 
+                                             VerticalOptions="Center">
+                                    <Label Text="{Binding Day}" 
+                                           FontSize="14" 
+                                           TextColor="{Binding IsSelected, Converter={StaticResource BoolToTextColorConverter}}"/>
+                                    <Label Text="{Binding Date}" 
+                                           FontSize="16" 
+                                           FontAttributes="Bold" 
+                                           TextColor="{Binding IsSelected, Converter={StaticResource BoolToTextColorConverter}}"/>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <StackLayout x:Name="TasksStackLayout" Spacing="16"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

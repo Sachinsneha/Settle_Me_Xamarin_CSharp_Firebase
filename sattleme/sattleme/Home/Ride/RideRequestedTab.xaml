@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:sattleme.Home.Ride"
+    x:Class="sattleme.Home.Ride.RideRequestedPage"
+    Title="Ride Requests">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- DataTemplate for the owner's ride request (swipeable with delete) -->
+            <DataTemplate x:Key="OwnerTemplate">
+                <ViewCell>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Reveal">
+                                <SwipeItem Text="Delete"
+                           BackgroundColor="Red"
+                           Invoked="OnSwipeItemInvoked"
+                           CommandParameter="{Binding}" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid Padding="10" BackgroundColor="White">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <!-- Avatar with tap gesture -->
+                            <Frame WidthRequest="48" HeightRequest="48" CornerRadius="24" Padding="0" 
+                     IsClippedToBounds="True" Grid.Column="0">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnUserTapped" CommandParameter="{Binding}" />
+                                </Frame.GestureRecognizers>
+                                <Image Source="{Binding PhotoUrl}" Aspect="AspectFill">
+                                    <Image.Triggers>
+                                        <DataTrigger TargetType="Image" Binding="{Binding PhotoUrl}" Value="">
+                                            <Setter Property="Source" Value="default_avatar.png"/>
+                                        </DataTrigger>
+                                    </Image.Triggers>
+                                </Image>
+                            </Frame>
+                            <!-- Ride Request Details with tap gesture -->
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnUserTapped" CommandParameter="{Binding}" />
+                                </StackLayout.GestureRecognizers>
+                                <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="16"/>
+                                <!-- Date Row -->
+                                <StackLayout Orientation="Horizontal" Spacing="4">
+                                    <Label Text="📅" FontSize="12" TextColor="Gray"/>
+                                    <Label Text="{Binding DateStr}" FontSize="12" TextColor="Gray"/>
+                                </StackLayout>
+                                <!-- Pickup Row -->
+                                <StackLayout Orientation="Horizontal" Spacing="4">
+                                    <Label Text="📍" FontSize="12" TextColor="Green"/>
+                                    <Label Text="Pickup:" FontSize="12" TextColor="Gray"/>
+                                    <Label Text="{Binding PickupLocation}" FontSize="12" TextColor="Gray" LineBreakMode="TailTruncation"/>
+                                </StackLayout>
+                                <!-- Drop Row -->
+                                <StackLayout Orientation="Horizontal" Spacing="4">
+                                    <Label Text="📍" FontSize="12" TextColor="Red"/>
+                                    <Label Text="Drop:" FontSize="12" TextColor="Gray"/>
+                                    <Label Text="{Binding DropLocation}" FontSize="12" TextColor="Gray" LineBreakMode="TailTruncation"/>
+                                </StackLayout>
+                                <!-- Time and Day/Month Row -->
+                                <StackLayout Orientation="Horizontal" Spacing="4">
+                                    <Label Text="⏰" FontSize="12" TextColor="Gray"/>
+                                    <Label Text="{Binding TimeStr}" FontSize="12" TextColor="Gray"/>
+                                    <Label Text="(" FontSize="12" TextColor="Gray"/>
+                                    <Label Text="{Binding RideDay}" FontSize="12" TextColor="Gray"/>
+                                    <Label Text=", " FontSize="12" TextColor="Gray"/>
+                                    <Label Text="{Binding RideMonth}" FontSize="12" TextColor="Gray"/>
+                                    <Label Text=")" FontSize="12" TextColor="Gray"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <!-- Actions Column -->
+                            <StackLayout Grid.Column="2" VerticalOptions="Center" Spacing="4">
+                                <!-- Edit button (visible only for owner) -->
+                                <StackLayout Orientation="Horizontal" IsVisible="{Binding IsOwner}">
+                                    <ImageButton Source="edit_icon.png" WidthRequest="24" HeightRequest="24" 
+                               Clicked="OnEditClicked" CommandParameter="{Binding}" />
+                                </StackLayout>
+                                <!-- Chat button -->
+                                <StackLayout>
+                                    <Button Text="Chat" FontSize="12" BackgroundColor="#FAAE2B" TextColor="White"
+                          Clicked="OnChatClicked" CommandParameter="{Binding}" />
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </SwipeView>
+                </ViewCell>
+            </DataTemplate>
+
+            <!-- DataTemplate for non-owner requests (no swipe delete) -->
+            <DataTemplate x:Key="NonOwnerTemplate">
+                <ViewCell>
+                    <Grid Padding="10" BackgroundColor="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <!-- Avatar with tap gesture -->
+                        <Frame WidthRequest="48" HeightRequest="48" CornerRadius="24" Padding="0" 
+                   IsClippedToBounds="True" Grid.Column="0">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnUserTapped" CommandParameter="{Binding}" />
+                            </Frame.GestureRecognizers>
+                            <Image Source="{Binding PhotoUrl}" Aspect="AspectFill">
+                                <Image.Triggers>
+                                    <DataTrigger TargetType="Image" Binding="{Binding PhotoUrl}" Value="">
+                                        <Setter Property="Source" Value="default_avatar.png"/>
+                                    </DataTrigger>
+                                </Image.Triggers>
+                            </Image>
+                        </Frame>
+                        <!-- Ride Request Details with tap gesture -->
+                        <StackLayout Grid.Column="1" VerticalOptions="Center">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnUserTapped" CommandParameter="{Binding}" />
+                            </StackLayout.GestureRecognizers>
+                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="16"/>
+                            <!-- Date Row -->
+                            <StackLayout Orientation="Horizontal" Spacing="4">
+                                <Label Text="📅" FontSize="12" TextColor="Gray"/>
+                                <Label Text="{Binding DateStr}" FontSize="12" TextColor="Gray"/>
+                            </StackLayout>
+                            <!-- Pickup Row -->
+                            <StackLayout Orientation="Horizontal" Spacing="4">
+                                <Label Text="📍" FontSize="12" TextColor="Green"/>
+                                <Label Text="Pickup:" FontSize="12" TextColor="Gray"/>
+                                <Label Text="{Binding PickupLocation}" FontSize="12" TextColor="Gray" LineBreakMode="TailTruncation"/>
+                            </StackLayout>
+                            <!-- Drop Row -->
+                            <StackLayout Orientation="Horizontal" Spacing="4">
+                                <Label Text="📍" FontSize="12" TextColor="Red"/>
+                                <Label Text="Drop:" FontSize="12" TextColor="Gray"/>
+                                <Label Text="{Binding DropLocation}" FontSize="12" TextColor="Gray" LineBreakMode="TailTruncation"/>
+                            </StackLayout>
+                            <!-- Time and Day/Month Row -->
+                            <StackLayout Orientation="Horizontal" Spacing="4">
+                                <Label Text="⏰" FontSize="12" TextColor="Gray"/>
+                                <Label Text="{Binding TimeStr}" FontSize="12" TextColor="Gray"/>
+                                <Label Text="(" FontSize="12" TextColor="Gray"/>
+                                <Label Text="{Binding RideDay}" FontSize="12" TextColor="Gray"/>
+                                <Label Text=", " FontSize="12" TextColor="Gray"/>
+                                <Label Text="{Binding RideMonth}" FontSize="12" TextColor="Gray"/>
+                                <Label Text=")" FontSize="12" TextColor="Gray"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <!-- Actions Column -->
+                        <StackLayout Grid.Column="2" VerticalOptions="Center" Spacing="4">
+                            <!-- Non-owners can only chat -->
+                            <StackLayout>
+                                <Button Text="Chat" FontSize="12" BackgroundColor="#FAAE2B" TextColor="White"
+                        Clicked="OnChatClicked" CommandParameter="{Binding}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+
+            <!-- Template selector that picks the appropriate DataTemplate -->
+            <local:RideRequestTemplateSelector x:Key="RideRequestTemplateSelector"
+                                         OwnerTemplate="{StaticResource OwnerTemplate}"
+                                         NonOwnerTemplate="{StaticResource NonOwnerTemplate}" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- ListView using the template selector -->
+            <ListView x:Name="RideRequestsListView"
+                Grid.Row="0"
+                HasUnevenRows="True"
+                SeparatorVisibility="None"
+                IsPullToRefreshEnabled="True"
+                Refreshing="OnRefresh"
+                ItemTemplate="{StaticResource RideRequestTemplateSelector}" />
+
+           
+            <Button Grid.Row="1" Text="Request Ride"
+              Clicked="OnRequestRideClicked"
+              BackgroundColor="#FAAE2B"
+              TextColor="White"
+              CornerRadius="8"
+              Margin="16" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

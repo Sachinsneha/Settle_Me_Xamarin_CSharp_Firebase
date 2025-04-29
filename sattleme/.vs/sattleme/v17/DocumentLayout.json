@@ -1,0 +1,976 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\ridertabpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\ridertabpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\daycolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\daycolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\forgotpasswordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\forgotpasswordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\forgotpasswordpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\forgotpasswordpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\services\\firebasefirestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\services\\firebasefirestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\services\\firebaseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\services\\firebaseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\profile\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\profile\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\becomeriderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\becomeriderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\rental\\uploadrental.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\rental\\uploadrental.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\rental\\listingdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\rental\\listingdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\rental\\alllistingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\rental\\alllistingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\homepage\\notificationspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\homepage\\notificationspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\homepage\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\homepage\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\chat\\chatlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\chat\\chatlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\chat\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\chat\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\agentdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\agentdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\ridertabpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\ridertabpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\riderequestedtab.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\riderequestedtab.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\requestride.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\requestride.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\pickupservicetabbedpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\pickupservicetabbedpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\pickupservicetabbedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\pickupservicetabbedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\becomeriderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\becomeriderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\agentlistingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\agentlistingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\becomeagentpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\becomeagentpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\agentlistingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\agentlistingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\agentdetailspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\agentdetailspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\todo\\todoscreenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\todo\\todoscreenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\todo\\todoscreenpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\todo\\todoscreenpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\becomeagentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\becomeagentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\riderequestedtab.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\riderequestedtab.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\ride\\requestride.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\ride\\requestride.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\homepage\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\homepage\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\homepage\\notificationspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\homepage\\notificationspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\services\\firebasestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\services\\firebasestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\paymentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\paymentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\chat\\chatpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\chat\\chatpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\rental\\listingdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\rental\\listingdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\profile\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\profile\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\todo\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\todo\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\rental\\uploadrental.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\rental\\uploadrental.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\agents\\paymentpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\agents\\paymentpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\models\\firebaseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\models\\firebaseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\chat\\chatlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\chat\\chatlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\home\\rental\\alllistingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\home\\rental\\alllistingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|c:\\users\\143ff\\desktop\\sachin\\sem4\\mobile development\\sattleme\\sattleme\\auth\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C35D2516-AEEF-4080-913E-2CFA296111F5}|sattleme\\sattleme.csproj|solutionrelative:sattleme\\auth\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D190A5-A65E-4BE7-B5CA-5117ED3228A0}|sattleme.Android\\sattleme.Android.csproj|C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D190A5-A65E-4BE7-B5CA-5117ED3228A0}|sattleme.Android\\sattleme.Android.csproj|solutionrelative:sattleme.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Rental\\UploadRental.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sattleme\\obj\\Debug\\netstandard2.0\\Home\\Rental\\UploadRental.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderDetails.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderDetails.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Agents\\AgentListingPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sattleme\\obj\\Debug\\netstandard2.0\\Home\\Agents\\AgentListingPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderTabPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderTabPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 261,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirebaseFirestoreService.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\FirebaseFirestoreService.cs",
+              "RelativeDocumentMoniker": "sattleme\\Services\\FirebaseFirestoreService.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\FirebaseFirestoreService.cs",
+              "RelativeToolTip": "sattleme\\Services\\FirebaseFirestoreService.cs",
+              "ViewState": "AQIAAEIBAAAAAAAAAAAUwGQBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:56:24.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BecomeRiderPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\BecomeRiderPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\BecomeRiderPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\BecomeRiderPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\BecomeRiderPage.xaml.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAAwwMcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:21:58.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UploadRental.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\UploadRental.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Rental\\UploadRental.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\UploadRental.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Rental\\UploadRental.xaml.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAowPUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:50:17.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\HomePage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\HomePage\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\HomePage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\HomePage\\HomePage.xaml",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAYwOgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T03:23:11.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DayColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\DayColorConverter.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\DayColorConverter.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\DayColorConverter.cs",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\DayColorConverter.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:13:00.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RiderTabPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RiderTabPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\RiderTabPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RiderTabPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\RiderTabPage.xaml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T02:29:44.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPasswordPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\ForgotPasswordPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\auth\\ForgotPasswordPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\ForgotPasswordPage.xaml",
+              "RelativeToolTip": "sattleme\\auth\\ForgotPasswordPage.xaml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T03:13:26.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\ForgotPasswordPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\auth\\ForgotPasswordPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\ForgotPasswordPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\auth\\ForgotPasswordPage.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T03:13:09.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\auth\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\RegisterPage.xaml",
+              "RelativeToolTip": "sattleme\\auth\\RegisterPage.xaml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T03:13:24.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FirebaseAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\FirebaseAuthService.cs",
+              "RelativeDocumentMoniker": "sattleme\\Services\\FirebaseAuthService.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\FirebaseAuthService.cs",
+              "RelativeToolTip": "sattleme\\Services\\FirebaseAuthService.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAUwLsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:03:20.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListingDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\ListingDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Rental\\ListingDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\ListingDetailPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Rental\\ListingDetailPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T03:39:09.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Profile\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Profile\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Profile\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Profile\\ProfilePage.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:50:16.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotificationsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\NotificationsPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\HomePage\\NotificationsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\NotificationsPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\HomePage\\NotificationsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T03:25:13.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AllListingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\AllListingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Rental\\AllListingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\AllListingsPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Rental\\AllListingsPage.xaml.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAmwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T03:27:04.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChatListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatListPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\chat\\ChatListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatListPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\chat\\ChatListPage.xaml.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAAFwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T05:08:13.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\chat\\ChatPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\chat\\ChatPage.xaml.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAwwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T04:59:18.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AgentDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\AgentDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentDetailsPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\AgentDetailsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:31:20.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RiderTabPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RiderTabPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\RiderTabPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RiderTabPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\RiderTabPage.xaml.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAAwKcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:29:54.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RideRequestedTab.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RideRequestedTab.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\RideRequestedTab.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RideRequestedTab.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\RideRequestedTab.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:55:10.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RequestRide.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RequestRide.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\RequestRide.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RequestRide.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\RequestRide.xaml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAcwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T13:31:52.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PickUpServiceTabbedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-05T02:57:05.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PickUpServiceTabbedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\PickUpServiceTabbedPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T02:57:29.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BecomeRiderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\BecomeRiderPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\BecomeRiderPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\BecomeRiderPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\BecomeRiderPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T17:21:28.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AgentListingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentListingPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\AgentListingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentListingPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\AgentListingPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T17:35:16.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BecomeAgentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\BecomeAgentPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\BecomeAgentPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\BecomeAgentPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\BecomeAgentPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-21T17:13:20.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AgentListingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentListingPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\AgentListingPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentListingPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\AgentListingPage.xaml",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAFoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-21T17:34:40.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AgentDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentDetailsPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\AgentDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\AgentDetailsPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\AgentDetailsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-21T18:31:05.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ToDoScreenPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\ToDo\\ToDoScreenPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\ToDo\\ToDoScreenPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\ToDo\\ToDoScreenPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\ToDo\\ToDoScreenPage.xaml.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAAAAMMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:03:35.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ToDoScreenPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\ToDo\\ToDoScreenPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\ToDo\\ToDoScreenPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\ToDo\\ToDoScreenPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\ToDo\\ToDoScreenPage.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T07:02:56.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "sattleme\\Services\\SessionService.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\SessionService.cs",
+              "RelativeToolTip": "sattleme\\Services\\SessionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T03:24:51.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BecomeAgentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\BecomeAgentPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\BecomeAgentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\BecomeAgentPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\BecomeAgentPage.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T17:13:52.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\HomePage\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\HomePage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\HomePage\\HomePage.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T03:25:10.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RequestRide.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RequestRide.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\RequestRide.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RequestRide.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\RequestRide.xaml.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAUwNsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:52:31.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RideRequestedTab.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RideRequestedTab.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Ride\\RideRequestedTab.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Ride\\RideRequestedTab.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Ride\\RideRequestedTab.xaml",
+              "ViewState": "AQIAALIAAAAAAAAAAAAuwLkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T02:54:53.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NotificationsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\NotificationsPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\HomePage\\NotificationsPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\HomePage\\NotificationsPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\HomePage\\NotificationsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T04:34:48.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\auth\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\auth\\RegisterPage.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T04:38:16.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\auth\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\LoginPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\auth\\LoginPage.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T04:37:41.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\App.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\App.xaml.cs",
+              "RelativeToolTip": "sattleme\\App.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:13:00.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FirebaseStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\FirebaseStorageService.cs",
+              "RelativeDocumentMoniker": "sattleme\\Services\\FirebaseStorageService.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Services\\FirebaseStorageService.cs",
+              "RelativeToolTip": "sattleme\\Services\\FirebaseStorageService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA3wCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T01:05:07.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\App.xaml",
+              "RelativeDocumentMoniker": "sattleme\\App.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\App.xaml",
+              "RelativeToolTip": "sattleme\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-05T03:12:34.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PaymentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\PaymentPage.xaml.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\PaymentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\PaymentPage.xaml.cs",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\PaymentPage.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAYwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:03:49.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ChatPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\chat\\ChatPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\chat\\ChatPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T04:59:15.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ListingDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\ListingDetailPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Rental\\ListingDetailPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\ListingDetailPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Rental\\ListingDetailPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T03:37:16.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RiderTabPage.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderTabPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderTabPage.xaml.g.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderTabPage.xaml.g.cs",
+              "RelativeToolTip": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderTabPage.xaml.g.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:16:29.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Profile\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Profile\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Profile\\ProfilePage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Profile\\ProfilePage.xaml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T04:36:34.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\ToDo\\Converters.cs",
+              "RelativeDocumentMoniker": "sattleme\\Home\\ToDo\\Converters.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\ToDo\\Converters.cs",
+              "RelativeToolTip": "sattleme\\Home\\ToDo\\Converters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T20:00:15.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\Models\\User.cs",
+              "RelativeDocumentMoniker": "sattleme\\auth\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\Models\\User.cs",
+              "RelativeToolTip": "sattleme\\auth\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T04:06:25.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PaymentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\PaymentPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Agents\\PaymentPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Agents\\PaymentPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Agents\\PaymentPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T15:03:37.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UploadRental.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\UploadRental.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Rental\\UploadRental.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\UploadRental.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Rental\\UploadRental.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T01:24:44.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FirebaseUser.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\Models\\FirebaseUser.cs",
+              "RelativeDocumentMoniker": "sattleme\\auth\\Models\\FirebaseUser.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\Models\\FirebaseUser.cs",
+              "RelativeToolTip": "sattleme\\auth\\Models\\FirebaseUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T02:30:07.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AgentListingPage.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Agents\\AgentListingPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Agents\\AgentListingPage.xaml.g.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Agents\\AgentListingPage.xaml.g.cs",
+              "RelativeToolTip": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Agents\\AgentListingPage.xaml.g.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:21:34.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RiderDetails.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderDetails.xaml.g.cs",
+              "RelativeDocumentMoniker": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderDetails.xaml.g.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderDetails.xaml.g.cs",
+              "RelativeToolTip": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Ride\\RiderDetails.xaml.g.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:13:18.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ChatListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatListPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\chat\\ChatListPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\chat\\ChatListPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\chat\\ChatListPage.xaml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T05:07:54.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AllListingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\AllListingsPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\Home\\Rental\\AllListingsPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\Home\\Rental\\AllListingsPage.xaml",
+              "RelativeToolTip": "sattleme\\Home\\Rental\\AllListingsPage.xaml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T03:26:46.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "sattleme\\auth\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\auth\\LoginPage.xaml",
+              "RelativeToolTip": "sattleme\\auth\\LoginPage.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T03:13:43.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "sattleme.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme.Android\\MainActivity.cs",
+              "RelativeToolTip": "sattleme.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA9wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:32:37.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UploadRental.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Rental\\UploadRental.xaml.g.cs",
+              "RelativeDocumentMoniker": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Rental\\UploadRental.xaml.g.cs",
+              "ToolTip": "C:\\Users\\143ff\\Desktop\\sachin\\sem4\\Mobile Development\\sattleme\\sattleme\\obj\\Debug\\netstandard2.0\\Home\\Rental\\UploadRental.xaml.g.cs",
+              "RelativeToolTip": "sattleme\\obj\\Debug\\netstandard2.0\\Home\\Rental\\UploadRental.xaml.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T03:43:07.751Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
